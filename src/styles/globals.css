@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Colors */
+    --background: 0 0 0;
+    --foreground: 255 255 255;
+    --accent: 45 235 237;
+
+    /* Fonts */
+    --font-sans: "Inter", sans-serif;
+    --font-heading: "Bricolage Grotesque", sans-serif;
+  }
+
+  body {
+    @apply h-dvh overflow-x-hidden bg-[rgb(var(--background))] text-[rgb(var(--foreground))] antialiased;
+  }
+
+  img {
+    @apply block h-auto max-w-full;
+  }
+}
