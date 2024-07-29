@@ -45,7 +45,7 @@ export const RevealAnimation = ({
         initial="hidden"
         animate={slideControls}
         transition={{ duration: 0.5, ease: "easeIn" }}
-        className="absolute bottom-2 left-0 right-0 top-2 z-20 bg-primary"
+        className="absolute bottom-2 left-0 right-0 top-2 z-20 bg-accent"
       />
     </div>
   );
