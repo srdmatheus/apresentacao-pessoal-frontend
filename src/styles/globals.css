@@ -21,4 +21,8 @@
   img {
     @apply block h-auto max-w-full;
   }
+
+  p {
+    @apply text-base font-medium leading-relaxed text-foreground/90 only-of-type:mb-4 md:text-lg lg:text-xl
+  }
 }
