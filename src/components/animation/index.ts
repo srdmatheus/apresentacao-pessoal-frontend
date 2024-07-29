@@ -1,1 +1,1 @@
-export * from './reveal-animation'
+export * from "./reveal-animation";

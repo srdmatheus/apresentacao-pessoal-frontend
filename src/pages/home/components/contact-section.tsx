@@ -1,4 +1,4 @@
-import { Link, RevealAnimation } from "../../../components"
+import { Link, RevealAnimation } from "../../../components";
 
 export const ContactSection = () => {
   return (

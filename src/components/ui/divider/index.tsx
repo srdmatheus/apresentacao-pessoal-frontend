@@ -1,8 +1,13 @@
-import { ComponentProps } from "react"
-import { cn } from "../../../lib/utils"
+import { ComponentProps } from "react";
+import { cn } from "../../../lib/utils";
 
-type DividerProps = ComponentProps<'div'>
+type DividerProps = ComponentProps<"div">;
 
-export const Divider = ({className, ...props}: DividerProps) => {
-  return <div className={cn("w-full my-16 border border-neutral-800", className)} {...props} />
-}
+export const Divider = ({ className, ...props }: DividerProps) => {
+  return (
+    <div
+      className={cn("my-16 w-full border border-neutral-800", className)}
+      {...props}
+    />
+  );
+};

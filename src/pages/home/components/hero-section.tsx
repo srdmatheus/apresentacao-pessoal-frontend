@@ -1,4 +1,4 @@
-import { Link, RevealAnimation } from '../../../components'
+import { Link, RevealAnimation } from "../../../components";
 
 export const HeroSection = () => {
   return (
@@ -7,7 +7,7 @@ export const HeroSection = () => {
         <RevealAnimation>
           <img
             src="https://github.com/srdmatheus.png"
-            className="rounded-xl w-96"
+            className="w-96 rounded-xl"
             alt="Eu sorrindo segurando um meu cachorro filhote chamado Scott em um ambiente ao ar livre."
           />
         </RevealAnimation>
@@ -28,7 +28,7 @@ export const HeroSection = () => {
           <p>
             Essa página foi criada com o intuito de me apresentar para o{" "}
             <Link href="https://www.linkedin.com/company/projeto-frontend-fusion/">
-            Projeto Frontend Fusion
+              Projeto Frontend Fusion
             </Link>
             .
           </p>
